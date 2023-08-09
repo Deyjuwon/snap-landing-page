@@ -292,12 +292,18 @@ body {
         flex-direction: row-reverse;
     }
 
+    #header {
+        position: relative;
+    }
+
     .left-main {
         width: 1000%;
         padding-top: 30px;
         /* max-width: 540px; */
         height: 50vh;
         text-align: center;
+        position: absolute;
+        top: 800px;
     }
 
     .right-main {
@@ -305,6 +311,8 @@ body {
         height: 50vh;
         width: 100%;
         text-align: center;
+        position: absolute;
+        top: 130px;
     }
 
 
@@ -347,5 +355,15 @@ body {
     .icon i img {
         padding-right: 10px;
         width: 17%;
+    }
+
+    .left-main {
+        width: 1000%;
+        padding-top: 30px;
+        max-width: 400px;
+        height: 50vh;
+        text-align: center;
+        position: absolute;
+        top: 800px;
     }
 }
